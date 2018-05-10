@@ -6,6 +6,7 @@ def countdown(num)
     "#{counter} SECOND(S)!"
     counter -= 1
   end
+  binding.pry
   "HAPPY NEW YEAR!"
 end
 
