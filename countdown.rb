@@ -7,7 +7,7 @@ def countdown(num)
     puts "#{num} SECOND(S)!"
     counter -= 1
   end
-  binding.pry
+  #binding.pry
   "HAPPY NEW YEAR!"
 end
 
