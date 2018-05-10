@@ -1,5 +1,5 @@
 #write your code here
-require 'pry'
+#require 'pry'
 
 def countdown(num)
   counter = num
