@@ -3,7 +3,7 @@ require 'pry'
 def countdown(num)
   counter = num
   while counter >= 0
-    "#{counter} SECOND(S)!"
+    puts "#{counter} SECOND(S)!"
     counter -= 1
   end
   binding.pry
