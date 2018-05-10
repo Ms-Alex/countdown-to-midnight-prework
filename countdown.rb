@@ -2,7 +2,6 @@
 #require 'pry'
 
 def countdown(num)
-  #counter = num
   while num > 0
     puts "#{num} SECOND(S)!"
     num -= 1
