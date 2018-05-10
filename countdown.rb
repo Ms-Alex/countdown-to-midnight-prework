@@ -2,10 +2,10 @@
 #require 'pry'
 
 def countdown(num)
-  counter = num
+  #counter = num
   while num > 0
-    puts "#{counter} SECOND(S)!"
-    counter -= 1
+    puts "#{num} SECOND(S)!"
+    num -= 1
   end
   #binding.pry
   "HAPPY NEW YEAR!"
